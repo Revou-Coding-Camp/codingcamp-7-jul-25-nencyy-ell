@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>TaskFlow_Nencyelvaretta</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+  <div class="container">
+    <h2>TaskFlow</h2>
+    <form id="todo-form">
+      <input type="text" id="task" placeholder="Apa planning kali ini?">
+      <input type="date" id="date">
+      <button type="submit">Tambah</button>
+    </form>
+    <input type="text" id="search" placeholder="Cari tugas..">
+    <table>
+      <thead>
+        <tr>
+          <th>Tugas</th>
+          <th>Tanggal</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="todo-list"></tbody>
+    </table>
+    <button id="clear-all">Hapus Semua</button>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 </html>

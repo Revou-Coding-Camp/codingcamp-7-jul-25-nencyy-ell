@@ -1,0 +1,36 @@
+body {
+  background: #222;
+  color: #fff;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #2d2d4d;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #0006;
+}
+input, button {
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  background: #6c63ff;
+  color: #fff;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+#clear-all {
+  margin-top: 15px;
+  background: #ff6363;
+}
